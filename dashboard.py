@@ -63,7 +63,7 @@ def months (df_day):
     df_monthly["month"] = pd.Categorical(df_monthly["month"], categories = month_order, ordered = True)
     return df_monthly
 
-df_days = pd.read_csv("")
+df_days = pd.read_csv("df_day_clean.csv")
 df_hours = pd.read_csv("df_hour_clean.csv")
 
 datetime_columns = ["date"]
