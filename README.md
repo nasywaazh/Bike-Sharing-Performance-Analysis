@@ -1,21 +1,14 @@
-# Bike Sharing Performance Analysis
-Proyek ini bertujuan untuk melakukan analisis performa bisnis yang bersumber dari Bike Sharing Dataset
+## Setup Environment - Anaconda
+```conda create --name main-ds python=3.10.12```   
+```conda activate main-ds```  
+```pip install -r requirements.txt``` 
 
-## Deployment Dashboard
-#### 1. Clone repository ini ke komputer lokal dengan menjalankan perintah:
-```shell```  
-```git clone https://github.com/nasywaazh/Bike-Sharing-Performance-Analysis.git```
+## Setup Environment - Shell/Terminal
+```mkdir Bike_Sharing_Analysis```  
+```cd Bike_Sharing_Analysis```  
+```pipenv install```  
+```pipenv shell```  
+```pip install -r requirements.txt```  
 
-#### 2. Menginstall pustaka Python yang diperlukan dengan menjalankan perintah:
-```shell```  
-```copy code```   
-```pip install streamlit```  
-```pip install -r requirements.txt```
-
-#### 3. Masuk ke dalam direktori project (lokal):
-```shell```  
-```copy code```  
-```cd Bike-Sharing-Performance-Analysis/streamlit/```  
+## Run Streamlit App 
 ```streamlit run dashboard.py```
-
-
