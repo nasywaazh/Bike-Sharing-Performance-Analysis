@@ -63,8 +63,10 @@ def months (df_day):
     df_monthly["month"] = pd.Categorical(df_monthly["month"], categories = month_order, ordered = True)
     return df_monthly
 
-df_days = pd.read_csv("C:/Users/HP/Downloads/dashboard/df_day_clean.csv")
-df_hours = pd.read_csv("C:/Users/HP/Downloads/dashboard/df_hour_clean.csv")
+df_days = pd.read_csv("https://docs.google.com/spreadsheets/d/1V2p7CY5--me8YPHF1PjFhlyuirMW9w8ROI3qbeHcTkg/export?format=csv&gid=1439566488
+")
+df_hours = pd.read_csv("https://docs.google.com/spreadsheets/d/1t72IRNRsesViX8tx-tAN6G6GsqYQlfQsMv8VUVv8Tlo/export?format=csv&gid=800397471
+")
 
 datetime_columns = ["date"]
 df_days.sort_values(by = "date", inplace = True)
